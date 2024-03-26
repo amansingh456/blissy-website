@@ -14,7 +14,7 @@ const HeroSection1 = () => {
     <div className=" bg-lowDark mt-28 h-[80vh] flex flex-col justify-center items-center">
       <div className="w-[60%] text-center">
         <h1 className="text-lowLight font-extrabold text-8xl leading-snug tracking-wide">
-          Talk to the people introverts like you
+          Talk to the introverts people like you
         </h1>
         <p className="text-lowLight text-2xl tracking-wide mt-10">
           join now, become someone's
