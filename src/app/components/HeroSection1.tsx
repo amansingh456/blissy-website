@@ -12,7 +12,7 @@ const HeroSection1 = () => {
 
   return (
     <div className=" bg-lowDark mt-28 h-[80vh] flex flex-col justify-center items-center">
-      <div className="w-[60%] text-center">
+      <div className="w-[70%] text-center">
         <h1 className="text-lowLight font-extrabold text-8xl leading-snug tracking-wide">
           Talk to the introverts people like you
         </h1>
