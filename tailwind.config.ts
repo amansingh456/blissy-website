@@ -14,24 +14,32 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        mainGreen: "#76988f",
-        highDark: "#1A1A1A",
+        mainGreen: "#1b5127",
+        highDark: "#000000",
         lowLight: "#F5F5F5",
-        greish: "#AEAEAE",
-        lowDark: "#2f2f2f",
+        greish: "#111111",
+        lowDark: "#1c1c1c",
         highLight: "#FFFFFF",
       },
+      screens: {
+        bs: "300px",
+        sm: "400px",
+        md: "600px",
+        lg: "800px",
+        xl: "1024px",
+        xxl: "1350px",
+      },
       animation: {
-        // slide: "slide 2s ease-in-out infinite",
+        slide: "slide 2s ease-in-out infinite",
         "shadow-pulse": "shadow-pulse 2s infinite",
         // "shadow-pulse-black": "shadow-pulse-black 2s infinite",
       },
       keyframes: {
-        //   slide: {
-        //     "0%, 100%": { transform: "translateX(0%)" },
-        //     "25%": { transform: "translateX(5%)" },
-        //     "75%": { transform: "translateX(-5%)" },
-        //   },
+        slide: {
+          "0%, 100%": { transform: "translateX(0%)" },
+          "25%": { transform: "translateX(5%)" },
+          "75%": { transform: "translateX(-5%)" },
+        },
         "shadow-pulse": {
           "0%, 100%": {
             boxShadow: "0 20px 50px rgba(255, 255, 255, 0.9)",

@@ -12,9 +12,11 @@ const GenricButton: React.FC<GenricButtonProps> = ({
   style,
 }) => {
   return (
-    <button onClick={onClick} className={`${style}`}>
-      {text}
-    </button>
+    <div className="btn-div">
+      <button onClick={onClick} className={`${style}`}>
+        {text}
+      </button>
+    </div>
   );
 };
 
