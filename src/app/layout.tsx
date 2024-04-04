@@ -19,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <link rel="icon" href="/vercel.svg" sizes="any" />
+      <body className={poppins.className}>
+        {children}
+      </body>
     </html>
   );
 }

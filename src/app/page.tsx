@@ -6,6 +6,12 @@ import MobileScroll from "./components/MobileScroll";
 import WindowPeak from "./components/WindowPeak";
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home - Blissy",
+  description: "Experience the power of empathy in every call with Blissy",
+};
 
 export default function Home() {
   return (
