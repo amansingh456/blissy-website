@@ -9,7 +9,7 @@ const FeelSpecial: React.FC = () => {
     "bg-highDark text-lowLight mb-10 mt-0 md:mt-10 px-10 py-4 text-xl font-bold tracking-wide  cursor-pointer clickEffect";
 
   return (
-    <div className="h-[80vh] w-full text-lowLight bg-lowDark ">
+    <div className="bs:h-[60vh] md:h-[80vh] w-full text-lowLight bg-lowDark ">
       <div
         className="w-full max-w-screen-xxl px-4 m-auto bg-cover h-full bg-no-repeat"
         style={{

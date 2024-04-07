@@ -57,15 +57,15 @@ const Faqs: React.FC = () => {
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className="bg-highDark hover:bg-lowDark duration-300 mb-1 p-2"
+              className="bg-highDark hover:bg-opacity-30 duration-300 mb-1 p-4"
             >
-              <div className="text-md sm:text-xl lg:text-2xl tracking-wide leading-[22px] lg:leading-[38px]">
-                <div className="flex justify-between items-center">
+              <div className="bs:text-md sm:text-xl lg:text-2xl tracking-wide leading-[22px] lg:leading-[38px]">
+                <div
+                  className="flex justify-between items-center clickEffect cursor-pointer duration-500"
+                  onClick={() => toggleOpen(index)}
+                >
                   <span> {faq.que}</span>
-                  <span
-                    className="cursor-pointer clickEffect"
-                    onClick={() => toggleOpen(index)}
-                  >
+                  <span className="cursor-pointer clickEffect">
                     {!openStates[index] ? (
                       <IoChevronDownCircleSharp />
                     ) : (

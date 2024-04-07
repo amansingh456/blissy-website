@@ -45,7 +45,7 @@ const Showcase: React.FC = () => {
   const imagesData: ImageData[] = [
     {
       className:
-        "bs:w-[70%] sm:w-[40%] md:w-[32%] lg:w-[22%] xl:w-[20%] rounded-[20px] md:rounded-[24px] xl:rounded-[25px] hidden sm:block absolute sm:left-[6%]  md:left-[12%]  lg:left-[22%]  xl:left-[10%] bs:top-[10%] md:top-[10%] lg:top-[8%] xl:top-[14%]",
+        "bs:w-[45%] sm:w-[40%] sm:h-[84%] md:w-[24%] md:h-[80%] lg:h-[90%] lg:w-[22%] xl:w-[20%] rounded-[20px] md:rounded-[24px] xl:rounded-[25px]  absolute bs:left-[1%] sm:left-[6%]  md:left-[10%]  lg:left-[12%]  xl:left-[10%] bs:top-[6%] md:top-[14%] lg:top-[14%] xl:top-[14%]",
       src: allImages.image1,
       alt: "Phone Left 2",
       animation: {
@@ -56,7 +56,7 @@ const Showcase: React.FC = () => {
     },
     {
       className:
-        "bs:w-[70%] sm:w-[40%] md:w-[32%] lg:w-[22%] xl:w-[20%]  rounded-[25px] absolute  left-[25%] top-[8%] hidden xl:block",
+        "md:w-[24%] md:h-[80%] lg:w-[22%] xl:w-[20%]  rounded-[25px] lg:h-[90%] absolute hidden md:block md:left-[22%]  xl:left-[25%] top-[8%]",
       src: allImages.image2,
       alt: "Phone Left 2",
       animation: {
@@ -67,7 +67,7 @@ const Showcase: React.FC = () => {
     },
     {
       className:
-        "bs:w-[75%] sm:w-[40%] md:w-[32%] lg:w-[22%] xl:w-[20%] rounded-[20px] md:rounded-[24px] xl:rounded-[25px] absolute bs:left-[13%] sm:left-[30%] md:left-[34%] lg:left-[39%] xl:left-[40%] z-20",
+        "bs:w-[45%] sm:w-[46%] sm:h-[84%] md:w-[24%] md:h-[80%] lg:h-[90%] lg:w-[22%] xl:w-[20%] rounded-[20px] md:rounded-[24px] xl:rounded-[25px] absolute bs:left-[27%] sm:left-[28%] md:left-[38%] lg:left-[39%] xl:left-[40%] z-20",
       src: allImages.image4,
       alt: "Phone Left 2",
       animation: {
@@ -78,7 +78,7 @@ const Showcase: React.FC = () => {
     },
     {
       className:
-        "bs:w-[70%] sm:w-[40%] md:w-[32%] lg:w-[22%] xl:w-[20%] rounded-[25px] z-10 absolute right-[25%] top-[8%] hidden xl:block",
+        "md:w-[24%] md:h-[80%] lg:w-[22%] xl:w-[20%] lg:h-[90%] rounded-[25px] z-10 absolute hidden md:block md:right-[22%] xl:right-[25%] md:top-[8%]  xl:top-[8%]",
       src: allImages.image3,
       alt: "Phone Left 2",
       animation: {
@@ -89,7 +89,7 @@ const Showcase: React.FC = () => {
     },
     {
       className:
-        "bs:w-[70%] sm:w-[40%] md:w-[32%] lg:w-[22%] xl:w-[20%] rounded-[20px] md:rounded-[24px] xl:rounded-[25px] z-0 hidden sm:block absolute  sm:right-[6%] md:right-[12%] lg:right-[22%] xl:right-[10%] bs:top-[10%] md:top-[10%]  lg:top-[8%] xl:top-[14%]",
+        "bs:w-[45%] sm:w-[40%] sm:h-[84%] md:w-[24%] md:h-[80%] lg:w-[22%] xl:w-[20%] lg:h-[90%] rounded-[20px] md:rounded-[24px] xl:rounded-[25px] z-0  absolute  bs:right-[1%] sm:right-[6%] md:right-[10%] lg:right-[12%] xl:right-[10%] bs:top-[6%] md:top-[14%] lg:top-[14%] xl:top-[14%]",
       src: allImages.image5,
       alt: "Phone Left 2",
       animation: {
@@ -102,12 +102,12 @@ const Showcase: React.FC = () => {
 
   return (
     <div
-      className={`w-full  relative overflow-hidden bg-lowDark bg-cover -z-10 flex py-32 pb-40 ${
+      className={`w-full  relative overflow-hidden bg-lowDark  bg-cover -z-10 flex bs:-mb-[120px] sm:mb-[0] lg:py-20 xl:pb-40 xl:pt-20 ${
         showAnimation ? "scale-in-bottom" : ""
       }`}
     >
       <div
-        className="w-full max-w-screen-xxl px-4 m-auto  bs:h-[600px] sm:h-[550px] md:h-[680] lg:h-[500px] xl:h-[620px] flex relative"
+        className="w-full max-w-screen-xxl px-4 m-auto bs:h-[600px] sm:h-[550px] md:h-[680] lg:h-[500px] xl:h-[620px] flex relative"
         ref={ref}
       >
         {showAnimation &&

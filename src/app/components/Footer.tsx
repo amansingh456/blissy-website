@@ -9,13 +9,13 @@ const Footer: React.FC = () => {
     "bg-highDark text-lowLight mb-10 mt-10 md:mt-10 px-10 py-4 text-xl font-bold tracking-wide  cursor-pointer clickEffect";
 
   return (
-    <footer className="bs:py-10 sm:py-10 py-20 w-full text-lowLight bg-lowDark ">
-      <div className="w-full max-w-screen-xxl px-4 m-auto flex bs:mb-4 sm:mb-4 bs:flex-col sm:flex-col md:flex-col md:items-center lg:flex-row xl:flex-row  justify-between">
+    <footer className="bs:py-10 sm:py-10 py-20 w-full text-lowLight bg-highDark ">
+      <div className="w-full max-w-screen-xxl px-4 m-auto flex bs:mb-4 sm:mb-4 bs:flex-col sm:flex-col md:flex-col  md:items-center lg:flex-row xl:flex-row  justify-between">
         <div className="w-full p-4">
           <p className="mb-4 text-xl sm:text-3xl lg:text-4xl tracking-wide leading-[38px] font-bold">
-            Your privacy, our priority:{" "}
-            <span className="text-mainGreen">Blissy</span> ensures your security
-            with strict privacy measures.
+            Your privacy, our priority :
+            <span className="text-mainGreen"> Blissy</span> ensures your
+            security with strict privacy measures.
           </p>
           <img
             src="https://framerusercontent.com/images/JeZ8C11qxwXGHoeMozBuruDXMA.png"

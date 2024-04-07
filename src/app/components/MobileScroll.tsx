@@ -50,7 +50,7 @@ const MobileScroll: React.FC = () => {
           ))}
         </div>
         <div className="w-[30%]flex justify-center">
-          <div className="mobile-mockup w-[290px] py-3 h-[600px] roudned-lg rounded-3xl bg-greish shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+          <div className="mobile-mockup w-[280px] py-3 h-[600px] roudned-lg rounded-3xl bg-greish shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
             <div className="overflow-hidden h-full flex justify-center items-center absolute-center">
               <img
                 src={scrollData[currentImg].mobile_img}

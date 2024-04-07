@@ -20,6 +20,7 @@ const config: Config = {
         greish: "#111111",
         lowDark: "#1c1c1c",
         highLight: "#FFFFFF",
+        trans: "#0e0e0e",
       },
       screens: {
         bs: "300px",

@@ -10,18 +10,18 @@ const HeroSection1: React.FC = () => {
 
   return (
     <>
-      <div className=" bg-lowDark w-full bs:mt-20 sm:mt-24 mt-28 h-[65vh] flex flex-col items-center">
+      <div className=" bg-lowDark w-full mt-[100px] md:h-[80vh] lg:h-[70vh] xl:h-[70vh] xxl:h-[70vh] flex flex-col items-center ">
         <div className="w-full max-w-screen-xxl px-4 m-auto text-center">
-          <h1 className="text-lowLight font-extrabold bs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-wide mt-16">
-            Talk to the introverts people like you
+          <h1 className="text-lowLight font-extrabold bs:mt-10 sm:mt-10 bs:text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-8xl bs:leading-normal sm:leading-normal tracking-wide">
+            Talk to the Introverts people like you
           </h1>
-          <p className="hidden md:block text-lowLight text-lg sm:text-2xl lg:text-3xl tracking-wide mt-10">
+          <p className=" text-lowLight text-lg sm:text-2xl md:text-3xl  lg:text-3xl tracking-wide mt-10">
             join now, become someone's
-            <span className="text-mainGreen font-bold text-4xl">
+            <span className="text-mainGreen font-bold text-lg sm:text-2xl md:text-3xl  lg:text-3xl tracking-wide">
               &nbsp;Healer&nbsp;
             </span>
             become someone's
-            <span className="text-mainGreen font-bold text-4xl">
+            <span className="text-mainGreen font-bold text-lg sm:text-2xl md:text-3xl  lg:text-3xl tracking-wide">
               &nbsp;Love&nbsp;
             </span>
           </p>
