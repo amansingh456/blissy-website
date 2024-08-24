@@ -42,6 +42,10 @@ const Faqs: React.FC = () => {
       que: "Are there options for users to report inappropriate behavior or content on Blissy?",
       ans: "Yes, Blissy provides options for users to report inappropriate behavior or content. This feature helps maintain a safe and respectful environment for all users, and the Blissy team takes appropriate action in response to reports to ensure a positive experience for everyone.",
     },
+    {
+      que: "What if I don’t feel safe on the platform? Can I delete my account permanently?",
+      ans: "Yes, within the Blissy app, you will find two options to manage your account: one for logging out if you want to take a break, and another to permanently delete your account if you no longer wish to use the platform. This ensures that you have full control over your presence on Blissy, allowing you to leave the app entirely if you ever feel unsafe or uncomfortable.",
+    },
   ];
   const [openStates, setOpenStates] = useState<boolean[]>(
     Array(faqData.length).fill(false)

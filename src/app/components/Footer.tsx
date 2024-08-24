@@ -1,10 +1,15 @@
+"use client";
 import React from "react";
 import { GrInstagram } from "react-icons/gr";
 import { ImFacebook2 } from "react-icons/im";
 import { FaSquareTwitter, FaLinkedin } from "react-icons/fa6";
 import GenricButton from "../gen/GenricButton";
+import { redirectLink } from "../gen/genricFunc";
 
 const Footer: React.FC = () => {
+  const handleButtonClick = () => {
+    redirectLink();
+  };
   const buttonStyles: string =
     "bg-highDark text-lowLight mb-10 mt-10 md:mt-10 px-10 py-4 text-xl font-bold tracking-wide  cursor-pointer clickEffect";
 
@@ -25,8 +30,8 @@ const Footer: React.FC = () => {
             className="mb-4"
           />
           <p className="bs:text-sm sm:text-sm lg:text-lg tracking-wide leading-[38px] font-thin ">
-            copyright © 2024-25 ABC Technologies Pvt Ltd. Registered under
-            FIU-IND (REID VA00032718) Made with ❤️ from INDIA 🇮🇳
+            copyright © 2024-25 Blissy Technologies Pvt Ltd, Made with ❤️ from
+            INDIA 🇮🇳
           </p>
         </div>
 
@@ -68,7 +73,11 @@ const Footer: React.FC = () => {
               </a>
             </p>
           </div>
-          <GenricButton style={buttonStyles} text="Get Now" />
+          <GenricButton
+            text="Get It Now"
+            onClick={handleButtonClick}
+            style={buttonStyles}
+          />
         </div>
       </div>
     </footer>

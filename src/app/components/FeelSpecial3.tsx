@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
 import GenericButton from "../gen/GenricButton";
+import { redirectLink } from "../gen/genricFunc";
 
 const FeelSpecial: React.FC = () => {
-  const handleButtonClick = () => {};
+  const handleButtonClick = () => {
+    redirectLink();
+  };
 
   const buttonStyles: string =
     "bg-highDark text-lowLight mb-10 mt-0 md:mt-10 px-10 py-4 text-xl font-bold tracking-wide  cursor-pointer clickEffect";
