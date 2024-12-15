@@ -14,6 +14,9 @@ const styles = {
   navPadding: 'pt-[98px]',
 
   // hero section
+  mediumHeading: 'font-semibold lg:text-[72px] md:text-[56px] sm:text-[40px] text-[32px] lg:leading-[80px] md:leading-[64px] sm:leading-[48px] leading-[40px] text-white',
+  smallHeading: 'font-medium lg:text-[36px] md:text-[28px] sm:text-[20px] text-[16px] lg:leading-[40px] md:leading-[32px] sm:leading-[24px] leading-[20px] text-white',
+
   heroHeading:
       'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
   heroDText:
